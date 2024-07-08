@@ -12,7 +12,7 @@ function changeImage(){
   imgSrc = document.getElementById("imgClickAndChange").src
   
   if (imgSrc == "https://lktruc.github.io/images/images1.jpg"){
-    alert(imgSrc)
+    
     document.getElementById("imgClickAndChange").src = 'https://lktruc.github.io/images/image2.jpg'
   } else {
     document.getElementById("imgClickAndChange").src = 'https://lktruc.github.io/images/images1.jpg'
