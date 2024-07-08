@@ -10,8 +10,9 @@ alert('Hello')
 
 function changeImage(){
   imgSrc = document.getElementById("imgClickAndChange").src
-  alert(imgSrc)
+  
   if (imgSrc == "https://lktruc.github.io/images/images1.jpg"){
+    alert(imgSrc)
     document.getElementById("imgClickAndChange").src = 'images/image2.jpg'
   } else {
     document.getElementById("imgClickAndChange").src = 'images/images1.jpg'
