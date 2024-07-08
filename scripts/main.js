@@ -10,7 +10,8 @@ alert('Hello')
 
 function changeImage(){
   imgSrc = document.getElementById("imgClickAndChange").src
-  if (imgSrc == "http://127.0.0.1:5500/images/images1.jpg"){
+  alert(imgSrc)
+  if (imgSrc == "images/images1.jpg"){
     document.getElementById("imgClickAndChange").src = 'images/image2.jpg'
   } else {
     document.getElementById("imgClickAndChange").src = 'images/images1.jpg'
