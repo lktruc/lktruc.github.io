@@ -13,8 +13,8 @@ function changeImage(){
   
   if (imgSrc == "https://lktruc.github.io/images/images1.jpg"){
     
-    document.getElementById("imgClickAndChange").src = 'https://lktruc.github.io/images/image2.jpg'
+    document.getElementById("imgClickAndChange").src = 'images/image2.jpg'
   } else {
-    document.getElementById("imgClickAndChange").src = 'https://lktruc.github.io/images/images1.jpg'
+    document.getElementById("imgClickAndChange").src = 'images/images1.jpg'
   }
 }
