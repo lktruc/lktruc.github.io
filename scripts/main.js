@@ -1,5 +1,6 @@
 alert('Hello')
-
+imgSrc = document.getElementById("imgClickAndChange").src
+alert(imgSrc)
 // var iceCream = 'chocolate'
 
 // if (iceCream === 'chocolate') {
